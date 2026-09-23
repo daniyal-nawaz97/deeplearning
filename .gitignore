@@ -1,0 +1,27 @@
+# MIT's reference repo — a separate clone, not ours to version.
+# Kept on disk for reference (solutions, TF notebooks, other labs).
+introtodeeplearning/
+
+# Training outputs — regenerated every run, never commit
+training_checkpoints/
+*.ckpt
+*.pth
+*.h5
+*.joblib
+
+# Generated music
+*.wav
+*.mid
+*.abc
+
+# Jupyter
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Secrets — never commit API keys (this repo is PUBLIC)
+.env
+*.key
+
+# OS
+.DS_Store
